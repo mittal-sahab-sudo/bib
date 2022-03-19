@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="thanos.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body onload="loadfunc()">
+    <div class="loader"></div>
+    <div class="banner">
+        <img class="banner-img" src="assets/thanos_hand.jpg" alt="Iron Man">
+        <div class="banner-img-overlay">
+            <div class="heading">
+                Meet the Thanos
+            </div>
+            <div class="sub-heading">
+                He is the only character, that, I can relate with.
+            </div>
+            <div class="up-footer">
+                <a class="nav" href="about.html">About Me</a>
+                <a class="nav" href="index.html">Back to heroes</a>
+            </div>
+        </div>
+    </div>
+    <div class="badla">
+            <img class="badla-gif" src="assets/thanos.gif" alt="Thanos GIF">
+            <div class="thanos-content">
+                <div class="thanos-quote">
+                    "Trauma ka, Disloyalty ka, Comments ka, Sabka badla<br> lega re Thanos."
+                </div>
+                <div class="thanos-sign">
+                    - Thanos
+                </div>
+            </div>
+    </div>
+    <div class="footer">
+        <a class="nav" href="about.html">About Me</a>
+        <a class="nav" href="index.html">Back to heroes</a>
+    </div>
+</body>
+<script>
+    var load = document.getElementsByClassName("loader")[0]
+    function loadfunc(){
+        load.style.display = 'none';
+    }
+</script>
+</html>

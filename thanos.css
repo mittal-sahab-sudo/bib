@@ -1,0 +1,152 @@
+body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+html {
+    height: 100%;
+    font-size: 62.5%;
+    
+  }
+  @media (max-width: 1600px) {
+    html {
+      font-size: 52%;
+    }
+  }
+  @media (max-width: 1366px) {
+    html {
+      font-size: 44%;
+    }
+  }
+  @media (max-width: 1280px) {
+    html {
+      font-size: 42%;
+    }
+  }
+  @media (max-width: 1024px) {
+    html {
+      font-size: 33%;
+    }
+  }
+  @media (max-width: 768px) {
+    html {
+      font-size: 25%;
+    }
+  }
+  @media (max-width: 480px) {
+    html {
+      font-size: 15%;
+    }
+  }
+.banner{
+    position: relative;
+    cursor: pointer;
+}
+.banner-img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+.banner-img-overlay{
+    position:absolute;
+    background-color: #6d3678;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top:0;
+    left: 0;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.4s;
+}
+.banner-img-overlay:hover{
+    opacity: 0.8;
+}
+.banner-img-overlay:hover .heading{
+    color: #f0ff00;
+}
+.heading{
+    font-size: 10rem;
+    text-align: center;
+    padding: 2rem;
+}
+.banner-img-overlay >.heading{
+  color: #f0ff00;
+}
+.banner-img-overlay >.sub-heading{
+  color: #f0ff00;
+}
+.sub-heading{
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #6d3678;
+}
+.up-footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.nav{
+font-size: 3rem;
+padding: 1rem;
+text-decoration: none;
+border: 1px solid #B97D10;
+color: #B97D10;
+border-radius: 3rem;
+
+}
+.nav:hover{
+background-color: #6d3678;
+color: #FBCA03;
+border: 1px solid #FBCA03;
+}
+.badla{
+    display: flex;
+    flex-direction: row;
+}
+.badla-gif{
+    width: 50%;
+    height: auto;
+}
+.thanos-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.thanos-quote{
+    font-size: 6rem;
+    padding: 2rem;
+    text-align: center;
+}
+.thanos-sign{
+    font-size: 6rem;
+}
+.loader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background: white url('assets/loading.gif') no-repeat center;
+    z-index: 999;
+    transition:all 2s ease-in-out;
+  }

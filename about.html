@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body onload="loadfunc()">
+    <div class="loader"></div>
+    <div class="banner">
+        <img class="banner-img" src="assets/pp.jpeg" alt="Iron Man">
+        <div class="banner-img-overlay">
+            <div class="heading">
+                About Me
+            </div>
+            <div class="sub-heading">
+                This website is to quote the pain of a non-marvel fan<br>standing in the middle of all the craze of Marvel.<br>
+                Though, this website is not built with the <br>intention of hurting anyone's sentiment.<br>
+                <br>
+                Made with <span style="text-decoration:line-through;">love</span> pain, by Abhishek Mittal (IIIT Vadodara, 201851004) 
+            </div>
+            <div class="footer">
+                <a class="nav" href="thanos.html">Meet Thanos</a>
+                <a class="nav" href="index.html">Back to heroes</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var load = document.getElementsByClassName("loader")[0]
+    function loadfunc(){
+        load.style.display = 'none';
+    }
+</script>
+</html>
